@@ -60,10 +60,6 @@ class laminaPractica extends JPanel{
 		
 		//--------------------------------------------------
 		
-		/*configura_menu("estilo","Negrita","",1,12,"bin/graficos/azul.gif");
-		configura_menu("estilo","Cursiva","",2,12,"bin/graficos/amarillo.gif");*/
-		//Negrita.setHorizontalSetPosition(SwingConstants.LEFT); averiguar donde ponerlo para cambiar la imagen de sitio
-		
 		JCheckBoxMenuItem negrita= new JCheckBoxMenuItem("Negrita",new ImageIcon("bin/Swing/bold.gif"));
 		JCheckBoxMenuItem cursiva= new JCheckBoxMenuItem("Cursiva",new ImageIcon("bin/Swing/italic.gif"));
 		
